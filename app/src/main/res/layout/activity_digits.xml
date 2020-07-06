@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:weightSum="10"
+    android:orientation="vertical"
+    tools:context=".DigitsActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:weightSum="8"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/decToBin"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_weight="3"
+            android:background="#60B0f4"
+            android:layout_marginRight="5dp"
+            android:text="dec to Bin"/>
+        <Button
+            android:id="@+id/binToDec"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_weight="3"
+            android:background="#60B0f4"
+            android:layout_marginLeft="5dp"
+            android:text="Bin to Dec"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:weightSum="8"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/decToOct"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_weight="3"
+            android:background="#60B0f4"
+            android:layout_marginRight="5dp"
+            android:text="Dec to Oct"/>
+        <Button
+            android:id="@+id/octToDec"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_weight="3"
+            android:background="#60B0f4"
+            android:layout_marginLeft="5dp"
+            android:text="Oct to Dec"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:weightSum="8"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/decToHex"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_weight="3"
+            android:background="#60B0f4"
+            android:layout_marginRight="5dp"
+            android:text="Dec to Hex"/>
+        <Button
+            android:id="@+id/hexToDec"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_weight="3"
+            android:background="#60B0f4"
+            android:layout_marginLeft="5dp"
+            android:text="Hex to Dec"/>
+    </LinearLayout>
+</LinearLayout>
